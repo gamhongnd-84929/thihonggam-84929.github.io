@@ -290,7 +290,7 @@ list-style-type: none;
 {
     [class*="po-d-"]
     {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
     .po-d-home{
         position: absolute;   
