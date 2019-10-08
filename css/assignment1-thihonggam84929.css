@@ -1,0 +1,405 @@
+*{
+    color: white;
+}
+
+h1{
+    color: lightblue;
+    font-family:cursive;
+}
+body{
+    background-image: url("../img/backgroundpicture.jpg");
+   
+}
+
+
+nav ul{
+    position: absolute;
+    top:0px;
+    width:100%;
+    list-style-type: none;
+    margin: 0;    
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+
+}
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    display: block;
+    width: 100px;
+    height: 10px;      
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+nav ul li a:hover, a:active
+{
+ background-color: green;
+}
+
+#resume th{
+    width: 20%;
+}
+#resume td{
+    width: 70%;
+}
+
+
+table ul li{  
+    
+    text-align: left;
+    list-style-type: initial;
+    
+}
+
+#contact ul li{
+list-style-type: none;
+
+}
+
+
+
+/* For mobile phone*/
+@media only screen and (max-width:600px)
+{
+    [class*="po-"]
+    {
+        font-size: 1.0em;
+        width: 100%;
+    
+    }
+    .po-d-home{
+        position: absolute;   
+        top:0px;
+        height: 300px;
+        width: 80%;
+        left: 10%;
+        right:10%;
+    }
+    #intro{
+        position: absolute;
+        top: 200px;
+        width:90%;
+        text-align: center;
+        left: 5%;
+        right: 5%;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    
+    .po-d-work{
+        position: absolute;
+        top: 600px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height: 400px;
+    }
+    
+    #lab{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        
+    } 
+    #lab ul li{
+        float: left;
+    }    
+
+     img{
+        width:250px;
+        height:250px;
+        
+    }
+    .po-d-resume{
+        position: absolute;
+        top:1600px;
+        left: 5%;
+        right:5%;
+        width:90%;
+        height:1100px;
+        
+    }
+    #resume caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 50px;
+    }
+    #resume table {
+        line-height: 1.0em;
+        font-family: 'Times New Roman', Times, serif;
+        border: solid 1px, black;
+        
+        color: white;
+    }
+    #table{
+        background-color: black;  
+    }
+    .po-d-contact{
+        position: absolute;
+        top:2600px;
+        left: 5%;
+        right: 5%;
+        width:90%;
+        height:200px;
+    }    
+    
+    #contact input{
+        height: 30px;
+        width:70%;
+    }
+    #contact textarea{
+        height: 100px;
+        width:70%;
+        color: black;
+    }
+    #contact button{
+        height: 30px;
+        width:100px;
+        color: black;
+    } 
+    .po-d-reference{
+        position: absolute;
+        top: 2900px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height:800px;
+    }
+}
+
+/*for tablet*/
+@media only screen and (min-width: 600px)
+{
+    [class*="po-t-"]
+    {
+        font-size: 1.0em;
+    }
+    
+    .po-d-home{
+        position: absolute;   
+        top:0px;
+        height: 300px;
+        width: 80%;
+        left: 10%;
+        right:10%;
+    }
+    #intro{
+        position: absolute;
+        top: 200px;
+        width:80%;
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    
+    .po-d-work{
+        position: absolute;
+        top: 600px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height: 400px;
+    }
+    
+    #lab{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        
+    } 
+    #lab ul li{
+        float: left;
+    }    
+
+     img{
+        width:250px;
+        height:250px;
+        
+    }
+    .po-d-resume{
+        position: absolute;
+        top:1400px;
+        left: 5%;
+        right:5%;
+        width:90%;
+        height:1100px;
+        
+    }
+    #resume table {
+        line-height: 1.0em;
+        font-family: 'Times New Roman', Times, serif;
+        border: solid 1px, black;
+        
+        color: white;
+    }
+    #resume caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        padding: 50px;
+    }
+    #table{
+        background-color: black;  
+    }
+    .po-d-contact{
+        position: absolute;
+        top:2600px;
+        left: 5%;
+        right: 5%;
+        width:90%;
+        height:200px;
+    }    
+    
+    #contact input{
+        height: 30px;
+        width:70%;
+    }
+    #contact textarea{
+        height: 100px;
+        width:70%;
+        color: black;
+    }
+    #contact button{
+        height: 30px;
+        width:100px;
+        color: black;
+    } 
+    .po-d-reference{
+        position: absolute;
+        top: 2900px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height:800px;
+    }
+    
+    
+
+}
+/*for desktop*/
+@media only screen and (min-width: 768px)
+{
+    [class*="po-d-"]
+    {
+        font-size: 1.5em;
+    }
+    .po-d-home{
+        position: absolute;   
+        top:0px;
+        height: 300px;
+        width: 90%;
+        left: 5%;
+        right:5%;
+    }
+    #home{
+        width:90%;
+    }
+    #intro{
+        position: absolute;
+        top: 70px;
+        width:70%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    .po-d-about{
+        position: absolute;
+        top: 300px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height:200px;
+    }
+    .po-d-work{
+        position: absolute;
+        top: 600px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height: 400px;
+    }
+    
+    #lab{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        
+    } 
+    #lab ul li{
+        float: left;
+    }    
+
+     img{
+        width:300px;
+        height:300px;
+        
+    }
+    .po-d-resume{
+        position: absolute;
+        top:1400px;
+        left: 5%;
+        right:5%;
+        width:90%;
+        height:1100px;
+        
+    }
+    #resume caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        padding: 50px;
+    }
+    #resume table {
+        line-height: 1.0em;
+        font-family: 'Times New Roman', Times, serif;
+        border: solid 1px, black;
+        
+        color: white;
+    }
+    #table{
+        background-color: black;  
+    }
+    .po-d-contact{
+        position: absolute;
+        top:2800px;
+        left: 5%;
+        right: 5%;
+        width:90%;
+        height:200px;
+    }    
+    
+    #contact input{
+        height: 30px;
+        width:50%;
+    }
+    #contact textarea{
+        height: 100px;
+        width:50%;
+        color: black;
+    }
+    #contact button{
+        height: 30px;
+        width:100px;
+        color: black;
+    } 
+    .po-d-reference{
+        position: absolute;
+        top: 3100px;
+        left:5%;
+        right:5%;
+        width:90%;
+        height:300px;
+    }
+    
+    
+}

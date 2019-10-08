@@ -1,0 +1,126 @@
+div{
+    border: 1px;
+    border-style: solid;
+    padding:2%;
+    margin: 5%;
+    box-sizing: border-box;
+    float:left;
+}
+/*formatting for monile*/
+    [class*="col-"]
+    {
+        font-size: 1em;
+        width:90%;
+        background-color: aqua;
+        text-align:center;
+                
+    }
+    #reference{
+        width:90%;
+        float: left;
+    }
+    /*formatting for tablet*/
+@media only screen and (min-width: 600px) and (max-width:767px)
+{
+    [class*="col-t-"]
+    {
+        font-size: 1.5em;
+        background-color: lightgreen;
+        text-align: center;
+    }
+    .col-t-1{
+        width:90%;
+        float: left;
+    }
+    .col-t-2{
+        width:90%;        
+        float: left;;
+        
+    }
+    .col-t-3{
+        width:23%;
+        float: left;
+    }
+    .col-t-4{
+        width:23%;
+        float:left;
+    }
+    .col-t-5{
+        width:23%;
+        float:left;
+    }
+    #reference{
+        width:90%;
+        float:left;
+    }
+}
+
+/*formatting for Desktop*/
+@media only screen and (min-width: 768px) 
+{
+    [class*="col-d-"]
+    {
+        font-size: 2em;
+        background-color: lightcoral;
+        text-align: center;
+    }
+    .col-d-1{
+        position: absolute;
+        width:60%;
+        top: 5%;
+        left:5%;
+        height: 12%;
+        float: left;
+    }
+    .col-d-2{
+        position: absolute;
+        width:10%; 
+        height:55%;
+        top:5%;
+        left:75%;
+        right:5%;      
+        float: top;
+        -ms-transform: rotate(180deg);
+
+        /* Can you show us how to verticalize text*/
+        
+        
+    }
+    .col-d-3{
+        position: absolute;
+        width:10%;
+        top: 45%;
+        left: 5%;
+        float: left;
+
+    }
+    .col-d-4{
+        position: absolute;
+        width:10%;
+        top: 45%;
+        left: 30%;
+        float: left;
+    }
+    .col-d-5{
+        position: absolute;
+        width:10%;
+        top: 45%;
+        left: 55%;
+        float: left;
+    }
+    #reference{
+        position: absolute;
+        width:80%;
+        top: 80%;
+        left: 5%;
+        right:5%;
+        float: left;
+    }
+}
+
+
+
+    
+    
+
+
